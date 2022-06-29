@@ -10,6 +10,8 @@ import SoilFreezeAdvantage from './components/pages/SoilFreezeAdvantage';
 import Projects from './components/pages/Projects';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
+import Careers from './components/pages/Careers';
+import Terms from './components/pages/Terms';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
         <Footer />
     </BrowserRouter>
