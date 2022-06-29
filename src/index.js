@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Helmet } from "react-helmet";
-// import './index.css';
+import './index.css';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

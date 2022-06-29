@@ -35,9 +35,6 @@ export default function MainContainer() {
 
     return (
         <main>
-            {/* <h1>
-                I'm the main container!
-            </h1> */}
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </main>
