@@ -1,0 +1,14 @@
+.cust-nav {
+    background-color: rgba(0, 0, 0, 0.679);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cust-logo {
+    max-width: 50vh;
+}
+
+.cust-navlink {
+    color: white !important;
+}
+
