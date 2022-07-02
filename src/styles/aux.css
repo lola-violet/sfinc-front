@@ -1,9 +1,9 @@
-.cust-terms {
+.cust-aux {
     display: flex;
     flex-direction: column;
 }
 
-.term-title {
+.aux-title {
     padding-top: 10px;
     padding-bottom: 5px;
     margin-bottom: 20px;

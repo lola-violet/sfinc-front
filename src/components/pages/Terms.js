@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../styles/terms.css';
+import '../../styles/aux.css';
 
 export default function Terms() {
     return (
         <div className='container'>
-            <div className='cust-terms'> 
-                <h1 className='term-title'>Terms & Conditions of Use</h1>
+            <div className='cust-aux'> 
+                <h1 className='aux-title'>Terms & Conditions of Use</h1>
                 <p>
                     SoilFreeze provides this Internet website (“site”) for the convenience of prospective customers and partners, and for others who may be interested in learning about our company’s history and position in the industry.
                 </p>
