@@ -22,7 +22,7 @@ export default function Footer() {
                                 <Link className='cust-navlink nav-link' to='/careers'>Careers</Link>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='cust-navlink nav-link' to='/advantage'>Terms of Use</Link>
+                                <Link className='cust-navlink nav-link' to='/terms'>Terms of Use</Link>
                             </Nav.Link>
                         </Nav>
                     </Container>

@@ -6,7 +6,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 
 export default function Header() {
     return (
-        <header>
+        <header className='cust-header'>
             <Navbar className='cust-nav' expand='lg'>
                 <Container>
                     <Navbar.Brand >
