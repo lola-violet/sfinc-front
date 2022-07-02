@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// const { FacebookIcon } = require("@mui/icons-material/Facebook");
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import '../styles/footer.css';
 
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -9,32 +10,32 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
     return (
-        <footer className='container fixed-bottom'>
-            <nav className='navbar navbar-expand-lg'>
-                <div className='container'>
-                    <ul className='navbar-nav'>
-                        <li className='nav-item'>
-                            <Link className='nav-link' to='/contact'>Contact Us</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link className='nav-link' to='/careers'>Careers</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link className='nav-link' to='/advantage'>Terms of Use</Link>
-                        </li>
-                    </ul>
+        <footer className='cust-footer fixed-bottom'>
+            <div className='container'>
+                <Navbar expand='md'>
+                    <Container>
+                        <Nav className='me-auto'>
+                            <Nav.Link>
+                                <Link className='cust-navlink nav-link' to='/contact'>Contact Us</Link>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link className='cust-navlink nav-link' to='/careers'>Careers</Link>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link className='cust-navlink nav-link' to='/advantage'>Terms of Use</Link>
+                            </Nav.Link>
+                        </Nav>
+                    </Container>
+                </Navbar>
+                <div className='social-icons'>
+                    <a href='https://www.facebook.com/soilfreeze/' target="_blank" rel="noreferrer" className='cust-icon'><FacebookIcon sx={{ fontSize: 60 }} /></a>
+                    <a href='https://www.instagram.com/soilfreeze/?hl=en' target="_blank" rel="noreferrer" className='cust-icon'><InstagramIcon sx={{ fontSize: 60 }} /></a>
+                    <a href='https://www.linkedin.com/company/soilfreeze/' target="_blank" rel="noreferrer" className='cust-icon'><LinkedInIcon sx={{ fontSize: 60 }} /></a>
+                    <a href='https://www.youtube.com/channel/UCK5m2cIVkL3fZyMaTCl8_KQ' target="_blank" rel="noreferrer" className='cust-icon'><YouTubeIcon sx={{ fontSize: 60 }} /></a>
                 </div>
-            </nav>
-
-            <div>
-                <h5>Copyright © 2009 - 2022 SoilFreeze. All rights reserved.</h5>
-            </div>
-
-            <div>
-                <a href='https://www.facebook.com/soilfreeze/' target="_blank" rel="noreferrer"><FacebookIcon /></a>
-                <a href='https://www.instagram.com/soilfreeze/?hl=en' target="_blank" rel="noreferrer"><InstagramIcon /></a>
-                <a href='https://www.linkedin.com/company/soilfreeze/' target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-                <a href='https://www.youtube.com/channel/UCK5m2cIVkL3fZyMaTCl8_KQ' target="_blank" rel="noreferrer"><YouTubeIcon /></a>
+                <div className='cust-copy'>
+                    <p>Copyright © 2009 - 2022 SoilFreeze. All rights reserved.</p>
+                </div>
             </div>
         </footer>
     )

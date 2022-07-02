@@ -9,13 +9,14 @@ export default function Header() {
         <header>
             <Navbar className='cust-nav' expand='lg'>
                 <Container>
-                    <Navbar.Brand className='cust-logo'>
+                    <Navbar.Brand >
                         <Link className='navbar-brand' to='/'>
-                            <img className='img-fluid' src={transparentLogo} alt='SoilFreeze Logo' />
+                            <img className='cust-logo img-fluid' src={transparentLogo} alt='SoilFreeze Logo' />
                         </Link>
                     </Navbar.Brand>
                     
                     <Navbar.Toggle aria-controls='main-navbar-nav' />
+
                     <Navbar.Collapse id='main-navbar-nav'>
                         <Nav className='me-auto'>
                             <Nav.Link>

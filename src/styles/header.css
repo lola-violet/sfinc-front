@@ -5,10 +5,9 @@
 }
 
 .cust-logo {
-    max-width: 50vh;
+    width: 25vw;
 }
 
 .cust-navlink {
     color: white !important;
 }
-
