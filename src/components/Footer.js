@@ -10,7 +10,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
     return (
-        <footer className='cust-footer sticky'>
+        <footer className='cust-footer'>
             <div className='container'>
                 <Navbar expand='md'>
                     <Container>

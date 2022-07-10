@@ -3,6 +3,8 @@
     height: 20vh;
     margin-top: 50px;
     padding-top: 10px;
+    position: static;
+    bottom: 0;
 }
 
 
