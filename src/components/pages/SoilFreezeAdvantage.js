@@ -1,6 +1,7 @@
 import React from 'react';
 import AdvantageJumbo from '../advantageComponents/AdvantageJumbo';
 import AdvantageNavigation from '../advantageComponents/AdvantageNavigation';
+import WhySoilFreeze from '../advantageComponents/WhySoilFreeze';
 import EngineeredStructure from '../advantageComponents/EngineeredStructure';
 import CostEfficient from '../advantageComponents/CostEfficient';
 import EliminateDewatering from '../advantageComponents/EliminateDewatering';
@@ -14,6 +15,7 @@ export default function SoilFreezeAdvantage() {
         <div className='container'>
             <AdvantageJumbo />
             <AdvantageNavigation />
+            <WhySoilFreeze />
             <EngineeredStructure />
             <CostEfficient />
             <EliminateDewatering />
