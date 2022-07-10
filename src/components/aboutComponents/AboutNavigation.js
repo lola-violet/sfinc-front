@@ -16,13 +16,13 @@ export default function AboutNavigation({ currentPage, handlePageChange }) {
                     > Leadership </a>
             </button>
             <button>
-                <a href="#companyhistory"
+                <a href="#company-history"
                         onClick={() => handlePageChange('CompanyHistory')}
                         className={currentPage === 'CompanyHistory' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
                     > Company History & Patents </a>
             </button>
             <button>
-                <a href="#freezinghistory"
+                <a href="#freezing-history"
                         onClick={() => handlePageChange('FreezingHistory')}
                         className={currentPage === 'FreezingHistory' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
                     > Ground Freezing History </a>

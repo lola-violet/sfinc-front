@@ -6,15 +6,18 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 
-// About page imports
-import About from './components/pages/About';
-// import AboutLeadership from './components/pages/aboutPages/Leadership';
-// import AboutCompanyHistory from './components/pages/aboutPages/CompanyHistory';
-// import AboutFreezingHistory from './components/pages/aboutPages/FreezingHistory';
-// import AboutSafety from './components/pages/aboutPages/Safety';
 
+import About from './components/pages/About';
 import SoilFreezeAdvantage from './components/pages/SoilFreezeAdvantage';
+
+// Project page & subpages
 import Projects from './components/pages/Projects';
+import TunnelsAndShafts from './components/pages/projectPages/TunnelsAndShafts';
+import FoundationExcavations from './components/pages/projectPages/FoundationExcavations';
+import UtilitiesAndPumpStations from './components/pages/projectPages/UtilitiesAndPumpStations';
+import EnvironmentalSoilRemediation from './components/pages/projectPages/EnvironmentalSoilRemediation';
+import Mining from './components/pages/projectPages/Mining';
+
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Careers from './components/pages/Careers';
@@ -27,12 +30,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-          {/* <Route path="/about/leadership" element={<AboutLeadership />} />
-          <Route path='/about/companyhistory' element={<AboutCompanyHistory />} />
-          <Route path='/about/freezinghistory' element={<AboutFreezingHistory />} />
-          <Route path='/about/safety' element={<AboutSafety />} /> */}
         <Route path="/advantage" element={<SoilFreezeAdvantage />} />
         <Route path="/projects" element={<Projects />} />
+          <Route path='/projects/tunnels-and-shafts' element={<TunnelsAndShafts />} />
+          <Route path='/projects/foundation-excavations' element={<FoundationExcavations />} />
+          <Route path='/projects/utilities-and-pump-stations' element={<UtilitiesAndPumpStations />} />
+          <Route path='/projects/environmental-soil-remediation' element={<EnvironmentalSoilRemediation />} />
+          <Route path='/projects/mining' element={<Mining />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />

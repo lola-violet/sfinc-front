@@ -1,9 +1,12 @@
 import React from 'react';
+import ProjectJumbo from '../projectComponents/ProjectJumbo';
+import ProjectNavigation from '../projectComponents/ProjectNavigation';
 
 export default function Projects() {
     return (
         <div className='container'>
-            <h1>I'm the projects page</h1>
+            <ProjectJumbo />
+            <ProjectNavigation />
         </div>
     )
 }
