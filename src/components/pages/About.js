@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AboutJumbo from '../aboutComponents/AboutJumbo';
 import AboutNavigation from '../aboutComponents/AboutNavigation';
 import AboutOverview from '../pages/aboutPages/AboutOverview';
 import Leadership from '../pages/aboutPages/Leadership';
@@ -32,8 +33,7 @@ export default function AboutContainer() {
 
   return (
     <div className='container'>
-        <h1>I'm the about page</h1>
-        <p>I will be a jumbo image</p>
+        <AboutJumbo />
         <AboutNavigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
     </div>
