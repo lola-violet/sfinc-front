@@ -24,6 +24,8 @@ import Contact from './components/pages/Contact';
 import Careers from './components/pages/Careers';
 import Terms from './components/pages/Terms';
 
+import AddProject from './components/pages/AddProject';
+
 function App() {
   return (
     <BrowserRouter>
@@ -42,6 +44,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/addproject" element={<AddProject />} />
       </Routes>
         <Footer />
     </BrowserRouter>
