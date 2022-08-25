@@ -17,7 +17,7 @@ export default function Home() {
         // </div>
         <>
         <div>
-            <img src={BannerNo1} alt='banner image' className='img-fluid homeImg' />
+            <img src={BannerNo1} alt='banner' className='img-fluid homeImg' />
         </div>
         </>
         

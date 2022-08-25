@@ -1,29 +1,23 @@
 .cust-header {
     margin-bottom: 0px;
-    /* min-height: 30vh !important;
-    max-height: 30vh !important; */
 }
 
 .cust-nav {
     background-color: rgba(0, 0, 0, 0.615);
     display: flex;
-    /* flex-wrap: wrap; */
-    /* min-height: 10vh !important;
-    max-height: 30vh !important; */
-    height: 10vh;
-}
-
-.cust-logo {
-    /* width: 20vw; */
-    /* height: ; */
-    /* height: 30% !important; */
+    justify-content: space-between !important;
+    min-height: 10vh;
 }
 
 .cust-log {
     width: 25%;
-    /* height: 60%; */
+}
+
+.cust-nav-items {
+    justify-content: end;
 }
 
 .cust-navlink {
     color: white !important;
 }
+
