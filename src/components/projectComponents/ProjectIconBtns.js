@@ -11,24 +11,25 @@ import HorizFreezeIcon from '../../assets/img/pj_icons_blue/horizontal_freezing_
 
 export default function ProjectIconBtns() {
     return (
-        <div className='row'>
-            <div className='d-inline col-sm-12 col-lg-2'>
+        // Fix this!!!
+        <div className='d-flex flex-xs-column flex-sm-column flex-md-row'>
+            <div className=''>
                 <Link to='/projects/shafts-cross-passages' ><img src={ShaCrossPassIcon} alt='Shafts and Cross-Passages Icon' /></Link>
                 <Link to='/projects/shafts-cross-passages' ><h5>Shafts & Cross-Passages</h5></Link>
             </div>
-            <div className='d-inline col-sm-12 col-lg-2'>
+            <div className=''>
                 <Link to='/projects/foundation-excavations' ><img src={FoundaExcaIcon} alt='Foundation Excavations Icon' /></Link>
                 <Link to='/projects/foundation-excavations' ><h5>Foundation Excavations</h5></Link>
             </div>
-            <div className='d-inline col-sm-12 col-lg-2'>
+            <div className=''>
                 <Link to='/projects/utilities-pump-stations' ><img src={UtilPumpStaIcon} alt='Utilities and Pump Stations Icon' /></Link>
                 <Link to='/projects/utilities-pump-stations' ><h5>Utilities & Pump Stations</h5></Link>
             </div>
-            <div className='d-inline col-sm-12 col-lg-2'>
+            <div className=''>
                 <Link to='/projects/environmental-soil-remediation' ><img src={EnviroSoilIcon} alt='Environmental and Soil Remediation Icon' /></Link>
                 <Link to='/projects/environmental-soil-remediation' ><h5>Environmental & Soil Remediation</h5></Link>
             </div>
-            <div className='d-inline col-sm-12 col-lg-2'>
+            <div className=''>
                 <Link to='/projects/horizontal-freezing' ><img src={HorizFreezeIcon} alt='Horizontal Freezing Icon' /></Link>
                 <Link to='/projects/horizontal-freezing' ><h5>Horizontal Freezing</h5></Link>
             </div>

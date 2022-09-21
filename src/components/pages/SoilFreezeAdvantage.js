@@ -14,17 +14,19 @@ import EnvironmentallyFriendly from '../advantageComponents/EnvironmentallyFrien
 
 export default function SoilFreezeAdvantage() {
     return (
-        <div className='container'>
+        <div>
             <AdvantageJumbo />
-            <AdvantageNavigation />
-            <WhySoilFreeze />
-            <EngineeredStructure />
-            <CostEfficient />
-            <EliminateDewatering />
-            <AllSoilTypes />
-            <ShoringBeforeExcavation />
-            <FlexibleAdaptable />
-            <EnvironmentallyFriendly />
+            <div className='container'>
+                <AdvantageNavigation />
+                <WhySoilFreeze />
+                <EngineeredStructure />
+                <CostEfficient />
+                <EliminateDewatering />
+                <AllSoilTypes />
+                <ShoringBeforeExcavation />
+                <FlexibleAdaptable />
+                <EnvironmentallyFriendly />
+            </div>
         </div>
     )
 }

@@ -1,0 +1,15 @@
+/* .custCarouImg {
+    max-height: 1000px;
+    width: auto;
+    max-width: 80vw;
+    padding: 30px;
+    float: none;
+} */
+
+.customCarou {
+    max-width: 100vw;
+}
+
+.custCarouImg {
+    padding: 10% 20%;
+}

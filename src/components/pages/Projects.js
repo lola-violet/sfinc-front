@@ -7,9 +7,9 @@ import ProjectIconBtns from '../projectComponents/ProjectIconBtns';
 
 export default function Projects() {
     return (
-        <div className='container'>
+        <div>
             <ProjectsJumbo />
-            <div className=''>
+            <div className='container'>
                 <ProjectIconBtns />
                 <ProjectsOverviewDesc />
             </div>

@@ -34,10 +34,12 @@ export default function AboutContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='container'>
-        <AboutJumbo />
+    <div>
+      <AboutJumbo />
+      <div className='container'>
         <AboutNavigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+      </div>
     </div>
   );
 }
