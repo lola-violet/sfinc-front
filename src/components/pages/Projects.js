@@ -9,8 +9,10 @@ export default function Projects() {
     return (
         <div className='container'>
             <ProjectsJumbo />
-            <ProjectIconBtns />
-            <ProjectsOverviewDesc />
+            <div className=''>
+                <ProjectIconBtns />
+                <ProjectsOverviewDesc />
+            </div>
         </div>
     )
 }
