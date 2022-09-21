@@ -35,9 +35,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/advantage" element={<SoilFreezeAdvantage />} />
         <Route path="/projects" element={<Projects />} />
-          <Route path='/projects/shafts-and-cross-passages' element={<ShaCroPassPage />} />
+          <Route path='/projects/shafts-cross-passages' element={<ShaCroPassPage />} />
           <Route path='/projects/foundation-excavations' element={<FoundaExcaPage />} />
-          <Route path='/projects/utilities-and-pump-stations' element={<UtilPumpStaPage />} />
+          <Route path='/projects/utilities-pump-stations' element={<UtilPumpStaPage />} />
           <Route path='/projects/environmental-soil-remediation' element={<EnviroSoilPage />} />
           <Route path='/projects/horizontal-freezing' element={<HorizFreezePage />} />
         <Route path="/news" element={<News />} />
