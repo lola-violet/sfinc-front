@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Projects() {
+export default function FoundaExcaPage() {
     return (
         <div className='container'>
 

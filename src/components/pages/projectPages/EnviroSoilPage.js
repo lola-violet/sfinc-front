@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Projects() {
+export default function EnviroSoilPage() {
     return (
         <div className='container'>
 

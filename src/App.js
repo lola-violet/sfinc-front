@@ -13,18 +13,17 @@ import SoilFreezeAdvantage from './components/pages/SoilFreezeAdvantage';
 
 // Project page & subpages
 import Projects from './components/pages/Projects';
-import TunnelsAndShafts from './components/pages/projectPages/TunnelsAndShafts';
-import FoundationExcavations from './components/pages/projectPages/FoundationExcavations';
-import UtilitiesAndPumpStations from './components/pages/projectPages/UtilitiesAndPumpStations';
-import EnvironmentalSoilRemediation from './components/pages/projectPages/EnvironmentalSoilRemediation';
-import Mining from './components/pages/projectPages/Mining';
+import ShaCroPassPage from './components/pages/projectPages/ShaCroPassPage';
+import FoundaExcaPage from './components/pages/projectPages/FoundaExcaPage';
+import UtilPumpStaPage from './components/pages/projectPages/UtilPumpStaPage';
+import EnviroSoilPage from './components/pages/projectPages/EnviroSoilPage';
+import HorizFreezePage from './components/pages/projectPages/HorizFreezePage';
 
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Careers from './components/pages/Careers';
 import Terms from './components/pages/Terms';
 
-import AddProject from './components/pages/AddProject';
 
 function App() {
   return (
@@ -35,16 +34,15 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/advantage" element={<SoilFreezeAdvantage />} />
         <Route path="/projects" element={<Projects />} />
-          <Route path='/projects/tunnels-and-shafts' element={<TunnelsAndShafts />} />
-          <Route path='/projects/foundation-excavations' element={<FoundationExcavations />} />
-          <Route path='/projects/utilities-and-pump-stations' element={<UtilitiesAndPumpStations />} />
-          <Route path='/projects/environmental-soil-remediation' element={<EnvironmentalSoilRemediation />} />
-          <Route path='/projects/mining' element={<Mining />} />
+          <Route path='/projects/shafts-and-cross-passages' element={<ShaCroPassPage />} />
+          <Route path='/projects/foundation-excavations' element={<FoundaExcaPage />} />
+          <Route path='/projects/utilities-and-pump-stations' element={<UtilPumpStaPage />} />
+          <Route path='/projects/environmental-soil-remediation' element={<EnviroSoilPage />} />
+          <Route path='/projects/horizontal-freezing' element={<HorizFreezePage />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/addproject" element={<AddProject />} />
       </Routes>
         <Footer />
     </BrowserRouter>
