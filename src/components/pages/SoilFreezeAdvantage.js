@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Page Components
 import AdvantageJumbo from '../advantageComponents/AdvantageJumbo';
 import AdvantageNavigation from '../advantageComponents/AdvantageNavigation';
 import WhySoilFreeze from '../advantageComponents/WhySoilFreeze';

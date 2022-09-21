@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'bootstrap';
 import './App.css'
 
 // Static element imports

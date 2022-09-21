@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+
+// Page Components
 import AboutJumbo from '../aboutComponents/AboutJumbo';
 import AboutNavigation from '../aboutComponents/AboutNavigation';
 import AboutOverview from '../pages/aboutPages/AboutOverview';

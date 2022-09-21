@@ -1,7 +1,9 @@
 import React from 'react';
-import ImageSlide from '../homeComponents/ImageSlide';
-import CompanyBio from '../homeComponents/CompanyBio';
-import ProjectIcons from '../homeComponents/ProjectIcons';
+
+// Page Components
+// import ImageSlide from '../homeComponents/ImageSlide';
+// import CompanyBio from '../homeComponents/CompanyBio';
+// import ProjectIcons from '../homeComponents/ProjectIcons';
 import BannerNo1 from '../../assets/img/banners/banner_1.jpg';
 
 import '../../styles/home.css';
