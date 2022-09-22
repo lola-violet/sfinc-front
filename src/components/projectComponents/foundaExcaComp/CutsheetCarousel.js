@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Shafts & Cross Passages
+// Foundation Excavations
 //// Cutsheets
 import NewarkShaftRepair1201 from '../../../assets/cutsheets/shaCroPass/newark_shaft_repair-1201.png';
 import NewarkTbmReceivingShaft from '../../../assets/cutsheets/shaCroPass/newark_tbm_receiving_shaft.png';
