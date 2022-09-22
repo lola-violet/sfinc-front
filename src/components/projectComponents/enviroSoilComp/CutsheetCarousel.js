@@ -2,19 +2,19 @@ import React from 'react';
 
 // Environmental & Soil Remediation
 //// Cutsheets
-import NewarkShaftRepair1201 from '../../../assets/cutsheets/shaCroPass/newark_shaft_repair-1201.png';
-import NewarkTbmReceivingShaft from '../../../assets/cutsheets/shaCroPass/newark_tbm_receiving_shaft.png';
-import PierSLongBeach from '../../../assets/cutsheets/shaCroPass/pier-s_long_beach.png';
-import TurkeyCreekTunnel from '../../../assets/cutsheets/shaCroPass/turkey_creek_tunnel.png';
+import ElliotBaySeawall from '../../../assets/cutsheets/enviroSoil/elliot_bay_seawall.png';
+import GeorgetownSteamPlant from '../../../assets/cutsheets/enviroSoil/georgetown_steam_plant_rem.png';
+import PsegRemediationHoboken from '../../../assets/cutsheets/enviroSoil/pseg_remediation_hoboken.png';
+import ShuffletonSubstation from '../../../assets/cutsheets/enviroSoil/shuffleton_substation_rem.png';
 
 export default function CutsheetCarousel() {
     return (
         <div>
-            <div id='shaCroPassCarousel' className='carousel carousel-dark slide customCarou' data-bs-ride='carousel' data-bs-pause='false'>
+            <div id='enviroSoilCarousel' className='carousel carousel-dark slide customCarou' data-bs-ride='carousel' data-bs-pause='false'>
                 <div className='carousel-indicators'>
                     <button
                         type='button'
-                        data-bs-target='#shaCroPassCarousel'
+                        data-bs-target='#enviroSoilCarousel'
                         data-bs-slide-to='0'
                         className='active'
                         aria-current='true'
@@ -22,19 +22,19 @@ export default function CutsheetCarousel() {
                     ></button>
                     <button
                         type='button'
-                        data-bs-target='#shaCroPassCarousel'
+                        data-bs-target='#enviroSoilCarousel'
                         data-bs-slide-to='1'
                         aria-label='slide 2'
                     ></button>
                     <button
                         type='button'
-                        data-bs-target='#shaCroPassCarousel'
+                        data-bs-target='#enviroSoilCarousel'
                         data-bs-slide-to='2'
                         aria-label='slide 3'
                     ></button>
                     <button
                         type='button'
-                        data-bs-target='#shaCroPassCarousel'
+                        data-bs-target='#enviroSoilCarousel'
                         data-bs-slide-to='3'
                         aria-label='slide 4'
                     ></button>
@@ -43,36 +43,36 @@ export default function CutsheetCarousel() {
                     <div className='carousel-item active'>
                         <img 
                             className='d-block w-100 custCarouImg'
-                            src={NewarkShaftRepair1201} 
-                            alt='Cutsheet for Newark Shaft Repair' 
+                            src={ElliotBaySeawall} 
+                            alt='Cutsheet for Elliot Bay Seawall' 
                         />
                     </div>
                     <div className='carousel-item'>
                         <img
                             className='d-block w-100 custCarouImg'
-                            src={NewarkTbmReceivingShaft}
-                            alt='Cutsheet for Newark TBM Receiving Shaft' 
+                            src={GeorgetownSteamPlant}
+                            alt='Cutsheet for Georgetown Steam Plant' 
                         />
                     </div>
                     <div className='carousel-item'>
                         <img
                             className='d-block w-100 custCarouImg'
-                            src={PierSLongBeach}
-                            alt='Cutsheet for Pier-S Long Beach' 
+                            src={PsegRemediationHoboken}
+                            alt='Cutsheet for PSEG Remediation in Hoboken' 
                         />
                     </div>
                     <div className='carousel-item'>
                         <img
                             className='d-block w-100 custCarouImg'
-                            src={TurkeyCreekTunnel}
-                            alt='Cutsheet for Turkey Creek Tunnel' 
+                            src={ShuffletonSubstation}
+                            alt='Cutsheet for Shuffleton Stubstation' 
                         />
                     </div>
                 </div>
                 <button
                     className='carousel-control-prev'
                     type='button'
-                    data-bs-target='#shaCroPassCarousel'
+                    data-bs-target='#enviroSoilCarousel'
                     data-bs-slide='prev'
                     >
                     <span className='carousel-control-prev-icon' aria-hidden='true'></span>
@@ -81,7 +81,7 @@ export default function CutsheetCarousel() {
                 <button
                     className='carousel-control-next'
                     type='button'
-                    data-bs-target='#shaCroPassCarousel'
+                    data-bs-target='#enviroSoilCarousel'
                     data-bs-slide='next'
                     >
                     <span className='carousel-control-next-icon' aria-hidden='true'></span>
