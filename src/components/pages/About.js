@@ -3,11 +3,13 @@ import React, { useState } from 'react';
 // Page Components
 import AboutJumbo from '../aboutComponents/AboutJumbo';
 import AboutNavigation from '../aboutComponents/AboutNavigation';
-import AboutOverview from '../pages/aboutPages/AboutOverview';
-import Leadership from '../pages/aboutPages/Leadership';
-import CompanyHistory from '../pages/aboutPages/CompanyHistory';
-import FreezingHistory from '../pages/aboutPages/FreezingHistory';
-import Safety from '../pages/aboutPages/Safety';
+
+// SubPages
+import AboutOverview from './aboutPages/AboutOverview';
+import Leadership from './aboutPages/Leadership';
+import CompanyHistory from './aboutPages/CompanyHistory';
+import FreezingHistory from './aboutPages/FreezingHistory';
+import Safety from './aboutPages/Safety';
 
 
 export default function AboutContainer() {
