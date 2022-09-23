@@ -10,69 +10,64 @@ import EnviroSoilIcon from '../../assets/img/pj_icons_blue/environmental_remedia
 import HorizFreezeIcon from '../../assets/img/pj_icons_blue/horizontal_freezing_icon.png';
 
 
-export default function ProjectIconBtns(currentCateg, handleCategChange) {
+export default function ProjectIconBtns() {
     return (
-        // Fix this!!!
-        <div>
-            {/* <div>
-                <Button 
-                    href='#shafts-cross-passages' 
-                    onClick={() => handleCategChange('ShaCroPassPage')}
-                    className=''
+        <div className='d-flex flex-wrap' >
+            <Link 
+                to='/projects/shafts-cross-passages' 
+                className='d-flex flex-fill'
+                >
+                <Button
+                    className='flex-fill'
                     >
                     <img src={ShaCrossPassIcon} alt='Shafts and Cross-Passages Icon' />
                     <p>Shafts & Cross-Passages</p>
                 </Button>
-                <Button 
-                    href='#foundation-excavations' 
-                    onClick={() => handleCategChange('FoundaExcaPage')}
-                    className=''
+            </Link>
+            <Link 
+                to='/projects/foundation-excavations' 
+                className='d-flex flex-fill'
+                >
+                <Button
+                    className='flex-fill'
                     >
                     <img src={FoundaExcaIcon} alt='Foundation Excavations Icon' />
                     <p>Foundation Excavations</p>
                 </Button>
-            </div> */}
-
-            <br></br>
-
-            <div>
-                <Button variant='light' >
-                    <Link to='/projects/shafts-cross-passages' ><img src={ShaCrossPassIcon} alt='Shafts and Cross-Passages Icon' /></Link>
-                    <Link to='/projects/shafts-cross-passages' ><p>Shafts & Cross-Passages</p></Link>
-                </Button>
-                <Button 
-                variant='light' 
-                href='/projects/foundation-excavations'
+            </Link>
+            <Link 
+                to='/projects/utilities-pump-stations' 
+                className='d-flex flex-fill'
                 >
-                    <img src={ShaCrossPassIcon} alt='Shafts and Cross-Passages Icon' />
-                    <p>Shafts & Cross-Passages</p>
+                <Button
+                    className='flex-fill'
+                    >
+                    <img src={UtilPumpStaIcon} alt='Utilities and Pump Stations Icon' />
+                    <p>Utilities & Pump Stations</p>
                 </Button>
-            </div>
-
-            <br></br>
-
-            <div className='d-flex'>
-                <div className=''>
-                    <Link to='/projects/shafts-cross-passages' ><img src={ShaCrossPassIcon} alt='Shafts and Cross-Passages Icon' /></Link>
-                    <Link to='/projects/shafts-cross-passages' ><h5>Shafts & Cross-Passages</h5></Link>
-                </div>
-                <div className=''>
-                    <Link to='/projects/foundation-excavations' ><img src={FoundaExcaIcon} alt='Foundation Excavations Icon' /></Link>
-                    <Link to='/projects/foundation-excavations' ><h5>Foundation Excavations</h5></Link>
-                </div>
-                <div className=''>
-                    <Link to='/projects/utilities-pump-stations' ><img src={UtilPumpStaIcon} alt='Utilities and Pump Stations Icon' /></Link>
-                    <Link to='/projects/utilities-pump-stations' ><h5>Utilities & Pump Stations</h5></Link>
-                </div>
-                <div className=''>
-                    <Link to='/projects/environmental-soil-remediation' ><img src={EnviroSoilIcon} alt='Environmental and Soil Remediation Icon' /></Link>
-                    <Link to='/projects/environmental-soil-remediation' ><h5>Environmental & Soil Remediation</h5></Link>
-                </div>
-                <div className=''>
-                    <Link to='/projects/horizontal-freezing' ><img src={HorizFreezeIcon} alt='Horizontal Freezing Icon' /></Link>
-                    <Link to='/projects/horizontal-freezing' ><h5>Horizontal Freezing</h5></Link>
-                </div>
-            </div>
+            </Link>
+            <Link 
+                to='/projects/environmental-soil-remediation' 
+                className='d-flex flex-fill'
+                >
+                <Button
+                    className='flex-fill'
+                    >
+                    <img src={EnviroSoilIcon} alt='Environmental and Soil Remediation Icon' />
+                    <p>Environmental & Soil Remediations</p>
+                </Button>
+            </Link>
+            <Link 
+                to='/projects/horizontal-freezing' 
+                className='d-flex flex-fill'
+                >
+                <Button
+                    className='flex-fill'
+                    >
+                    <img src={HorizFreezeIcon} alt='Horizontal Freezing Icon' />
+                    <p>Horizontal Freezing</p>
+                </Button>
+            </Link>
         </div>
     )
 }
