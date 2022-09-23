@@ -1,0 +1,14 @@
+.custPjCat {
+    margin: 10px 5px;
+}
+
+.custPjBtn {
+    background-color: rgb(193, 193, 193);
+    align-items: center;
+    justify-content: center;
+}
+
+.custPjBtn p {
+    color: blue;
+    margin-bottom: 0;
+}
