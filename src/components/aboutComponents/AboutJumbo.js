@@ -1,11 +1,16 @@
 import React from 'react';
 
+// CSS
+import '../../styles/jumbo.css';
+
+// Components
+import Jumbo1 from '../../assets/img/banners/jumbo_1.png';
+
+
 export default function AboutJumbo() {
     return (
-        <div>
-            <h1>I am the about page</h1>
-            <p>I will be a jumbo header image</p>
-            
+        <div className=''>
+            <img src={Jumbo1} alt='Jumbotron of pipes in construction site' className='w-100 customJumbo' ></img>
         </div>
     )
 }
