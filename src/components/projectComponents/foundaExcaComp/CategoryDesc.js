@@ -7,7 +7,7 @@ import React from 'react';
 export default function CategoryDescription() {
     return (
         <div>
-            <h1>
+            <h1 className='categTitle'>
                 Foundation Excavations
             </h1>
             <p>
