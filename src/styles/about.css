@@ -1,0 +1,21 @@
+.abtNav {
+    margin-bottom: 20px;
+}
+
+.abtNavBox {
+    border: 1px blue solid;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 0;
+}
+
+.abtNavBox a {
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+
+.abtNavBox:hover {
+    background-color: red;
+    color: black;
+}
