@@ -1,56 +1,50 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 export default function AdvantageNavigation() {
     return (
-        <div>
-            <button>
-                <a href="/advantage"
-                        // onClick={() => handlePageChange('Overview')}
-                        // className={currentPage === 'About' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Why SoilFreeze? </a>
-            </button>
-            <button>
-                <a href="#engineeredStructure"
-                        // onClick={() => handlePageChange('Leadership')}
-                        // className={currentPage === 'Leadership' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Engineered Structure </a>
-            </button>
-            <button>
-                <a href="#costEfficient"
-                        // onClick={() => handlePageChange('CompanyHistory')}
-                        // className={currentPage === 'CompanyHistory' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Cost Efficient </a>
-            </button>
-            <button>
-                <a href="#eliminateDewatering"
-                        // onClick={() => handlePageChange('FreezingHistory')}
-                        // className={currentPage === 'FreezingHistory' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Eliminate Dewatering </a>
-            </button>
-            <button>
-                <a href="#allSoilTypes"
-                        // onClick={() => handlePageChange('Safety')}
-                        // className={currentPage === 'Safety' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Effective in All Soil Types </a>
-            </button>
-            <button>
-                <a href="#shoringBeforeExcavation"
-                        // onClick={() => handlePageChange('Safety')}
-                        // className={currentPage === 'Safety' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Shoring Completely Formed Before Excavation Begins </a>
-            </button>
-            <button>
-                <a href="#flexibleAdaptable"
-                        // onClick={() => handlePageChange('Safety')}
-                        // className={currentPage === 'Safety' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Flexible & Adaptable </a>
-            </button>
-            <button>
-                <a href="#environmentallyFriendly"
-                        // onClick={() => handlePageChange('Safety')}
-                        // className={currentPage === 'Safety' ? 'nav-link custom-navlink nav-active' : 'nav-link custom-navlink'}
-                    > Friendly to the Community & Environment </a>
-            </button>
+        <div className='d-flex flex-wrap'>
+            <Button
+                href='/advantage'
+                className='flex-fill advNavBox'
+                >Why SoilFreeze?
+            </Button>
+            <Button
+                href='#engineered-structure'
+                className='flex-fill advNavBox'
+                >Engineered Structure
+            </Button>
+            <Button
+                href='#cost-efficient'
+                className='flex-fill advNavBox'
+                >Cost Efficient
+            </Button>
+            <Button
+                href='#eliminate-dewatering'
+                className='flex-fill advNavBox'
+                >Eliminate Dewatering
+            </Button>
+            <Button
+                href='#all-soil-types'
+                className='flex-fill advNavBox'
+                >Effective in All Soil Types
+            </Button>
+            <Button
+                href='#shoring-before-excavation'
+                className='flex-fill advNavBox'
+                >Shoring Completely Formed Before Excavation Begins
+            </Button>
+            <Button
+                href='#flexible-adaptable'
+                className='flex-fill advNavBox'
+                >Flexible & Adaptable
+            </Button>
+            <Button
+                href='#environmentally-friendly'
+                className='flex-fill advNavBox'
+                >Friendly to the Community & Environment
+            </Button>
         </div>
+
     )
 }
