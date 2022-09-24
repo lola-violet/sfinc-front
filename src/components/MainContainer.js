@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+
+// Pages
 import Header from './Header';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -6,6 +8,9 @@ import SoilFreezeAdvantage from './pages/SoilFreezeAdvantage';
 import Projects from './pages/Projects';
 import News from './pages/News';
 import Contact from './pages/Contact';
+
+// CSS
+import '../styles/main.css';
 
 export default function MainContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -34,9 +39,11 @@ export default function MainContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <main>
+        <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-        </main>
+            <div className='contentContainer'>
+                {renderPage()}
+            </div>
+        </div>
     )
 }
