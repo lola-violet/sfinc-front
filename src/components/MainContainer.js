@@ -40,10 +40,10 @@ export default function MainContainer() {
 
     return (
         <div>
+            <main className='contentContainer'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div className='contentContainer'>
                 {renderPage()}
-            </div>
+            </main>
         </div>
     )
 }
