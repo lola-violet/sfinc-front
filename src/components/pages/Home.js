@@ -3,7 +3,7 @@ import React from 'react';
 // Page Components
 // import ImageSlide from '../homeComponents/ImageSlide';
 import CompanyBio from '../homeComponents/CompanyBio';
-// import ProjectIcons from '../homeComponents/ProjectIcons';
+import ProjectIcons from '../homeComponents/ProjectIcons';
 
 import '../../styles/home.css';
 
@@ -13,6 +13,7 @@ export default function Home() {
         <div>
             <div className='container-fluid bgImg'>
                 <CompanyBio />
+                <ProjectIcons />
             </div>
         </div>
     )
