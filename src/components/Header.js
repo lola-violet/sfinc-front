@@ -1,8 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import transparentLogo from '../assets/img/logo_transparentback.png';
-import '../styles/header.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+
+// CSS
+import '../styles/header.css';
+
+// Components
+import transparentLogo from '../assets/img/logo_transparentback.png';
+
+
 
 export default function Header() {
     return (
