@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 84vh;
     margin-top: -12vh;
     margin-bottom: auto;
     display: flex;
