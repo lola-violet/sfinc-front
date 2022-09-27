@@ -3,7 +3,9 @@ import React from 'react';
 export default function Safety() {
     return (
         <div>
-            <h2>Safety</h2>
+            <h1 className='abtTitle'>
+                Safety
+            </h1>
             <p>At SoilFreeze, we are dedicated to safe working environments, whether our employees are at our storage yard, at the office, or on a project site. We are proud of our impeccable safety record with the Washington State Department of Labor and Industries in successfully having no time-loss claims. Prior to each project, we review our health and safety plan in order to keep up-to-date on changing safety standards. Before we begin a project SoilFreeze’s health and safety plan will meet or exceed all requirements of the general contractor or owner. All of our SoilFreeze technicians either are or can be trained and certified in the following courses:</p>
             <ul>
                 <li>OSHA 40-hour HAZWOPER</li>

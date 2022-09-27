@@ -3,7 +3,9 @@ import React from 'react';
 export default function CompanyHistory() {
     return (
         <div>
-            <h2>Company History & Patents</h2>
+            <h1 className='abtTitle'>
+                Company History & Patents
+            </h1>
             <p>In 1986, our company founder, Ron Krieg, developed and patented soil freezing applications for the containment of such dangerous contaminates as radioactive waste. The early years of operation were built on Mr. Krieg’s extensive construction experience for Bechtel Corporation and on the loyalty of people whom he had come to know in the industry.</p>
             <p>Soon after, James Quitslund, a Harvard Graduate, Oxford Rhoads Scholar, joined Ron in developing and marketing the patented technology to “Super Fund” sites such as Hanford, Savanna River, Oak Ridge and Los Alamos National Laboratories and others.</p>
             <p>Led by Krieg and Quitslund, and in partnership with the University of Washington,  RKK, Ltd. received the rights to eight U.S. patents, seven of which relate to the use of frozen soil for containment, isolation, mobilization, removal and/or remediation of hazardous or radioactive materials in the earth. RKK, Ltd. was also granted patents in Argentina, Australia, Brazil, Canada, Greece, India, Israel, New Zealand, South Africa, Spain, and Taiwan.</p>

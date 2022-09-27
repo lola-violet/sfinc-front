@@ -1,25 +1,17 @@
-.abtNav {
+.advNav {
     margin-bottom: 20px;
 }
 
-.abtNavBox {
+.advNavBox {
     border: 1px blue solid;
     text-align: center;
     margin: 5px;
     padding: 10px 0;
 }
 
-.abtNavBox a {
-    text-decoration: none;
-    text-align: center;
-    color: blue;
-}
-
-.abtTitle {
+.advTitle {
     padding-top: 20px;
     padding-bottom: 5px;
     margin-bottom: 20px;
     border-bottom: 2px solid black;
 }
-
-

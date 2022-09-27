@@ -1,14 +1,17 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
+// CSS
+import '../../styles/advantage.css';
+
 export default function AdvantageNavigation() {
     return (
-        <div className='d-flex flex-wrap'>
-            <Button
+        <div className='d-flex flex-wrap advNav'>
+            {/* <Button
                 href='/advantage'
                 className='flex-fill advNavBox'
                 >Why SoilFreeze?
-            </Button>
+            </Button> */}
             <Button
                 href='#engineered-structure'
                 className='flex-fill advNavBox'

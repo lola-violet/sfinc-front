@@ -3,7 +3,9 @@ import React from 'react';
 export default function WhySoilFreeze() {
     return (
         <div id='why-soilfreeze'>
-            <h1>Why SoilFreeze?</h1>
+            <h1 className='advTitle'>
+                Why SoilFreeze?
+            </h1>
             <p>The SoilFreeze system is a comprehensive alternative to other shoring methods. Ground freezing should be an option if you are considering soil nailing, soldier piles and lagging, sheet piles, caissons, slurry walls, or secant piles for your project. If your project has difficult soil conditions, many of these methods are not feasible or can have marginal success. Ground freezing can handle the most difficult soil conditions with great results.</p>
             <span>“The freezing method is remarkably versatile and, with ingenuity, it can be adapted to a great many project conditions.” </span>
             <p>Dr. Kamran M. Nemati, Professor in Construction Management and Civil Engineering at the University of Washington</p>
