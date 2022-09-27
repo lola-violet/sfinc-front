@@ -2,7 +2,7 @@ import React from 'react';
 
 
 // Page Components
-import transparentLogo from  '../../assets/img/logo_transparentback.png';
+// import transparentLogo from  '../../assets/img/logo_transparentback.png';
 
 
 export default function GeneralContact() {
